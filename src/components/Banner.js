@@ -25,7 +25,7 @@ export const Banner = () => {
     const tick = () => {
 
         let i = loopNum % toRotate.length;
-        let fullText = tpRotate[i];
+        let fullText = toRotate[i];
         let updatedText;
 
         if (isDeleing) {
