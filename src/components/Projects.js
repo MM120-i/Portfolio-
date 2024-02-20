@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/carshowcase.png";
+import projImg2 from "../assets/img/Movie.png";
+import projImg3 from "../assets/img/carshowcase.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,13 +11,13 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CarShow Case",
+      description: "Explore, rent, or buy your ideal car effortlessly with this app. Detailed specs like fuel efficiency and transmission make finding the perfect match a breeze. Your automotive journey begins here.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "MediaMixUp",
+      description: "MediaMixUp: Your all-in-one hub for movies, TV shows, and video games. Explore, discover, and enjoy seamlessly with our user-friendly app.",
       imgUrl: projImg2,
     },
     {
@@ -84,8 +84,8 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
 
-                    <Tab.Pane eventKey="second">
-                      <Row>
+                    <Tab.Pane eventKey="second"> 
+                      {/* <Row>
                         {
                           projects.map((project, index) => {
                             return (
@@ -96,11 +96,11 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>
+                      </Row> */}
                     </Tab.Pane>
 
-                    <Tab.Pane eventKey="third">
-                      <Row>
+                    <Tab.Pane eventKey="third"> 
+                      {/* <Row>
                         {
                           projects.map((project, index) => {
                             return (
@@ -111,14 +111,17 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>
+                      </Row> */}
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p> */}
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Nothing for now.</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <p>Nothing for now.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
