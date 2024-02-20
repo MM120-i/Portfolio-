@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/carshowcase.png";
-import projImg2 from "../assets/img/Movie.png";
-import projImg3 from "../assets/img/carshowcase.png";
+import projImg1 from "../assets/img/Car.png";
+import projImg2 from "../assets/img/Car.png";
+import projImg3 from "../assets/img/Game.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -21,8 +21,8 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "2D Adventure Game",
+      description: "Embark on a Java-coded 2D treasure hunt with nostalgic pixel art and intuitive gameplay. Conquer challenges, outsmart guardians, and claim the ultimate treasure!",
       imgUrl: projImg3,
     },
     {
